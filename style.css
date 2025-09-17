@@ -92,24 +92,23 @@
  }
 
  .related-blog__img-Lina {
- color: rgba(0, 0, 0, 1);
- font-family: Poppins;
- font-size: 18px;
- font-weight: 500;
- line-height: 100%;
- letter-spacing: 2%;
- text-align: left;
+  padding-top: 40px;
+  float: left;
+  margin: 0 2%;
  }
 
- .related-blog__text-Lina {
-  text-align: center;
+ .related-blog__text-Lina { 
+  font-size: 18px;
+  align-items: center;
+  height: 90px;
+  display: flex;
+  padding-top: 40px;
  }
 
  .related-blog__text1 {
   color: rgba(105, 105, 132, 1);
   font-size: 20px;
-  letter-spacing: 2%;
-  padding-top: 25px;
+  padding-top: 50px;
  }
 
  .related-blog__down {
@@ -119,8 +118,4 @@
   color: rgba(105, 105, 132, 1);
   padding-top: 60px;
   margin: auto;
- }
-
- .related-blog__number {
-  
  }
