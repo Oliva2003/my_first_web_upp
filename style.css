@@ -23,10 +23,10 @@
  }
  
  body {
-  margin: 20px;
+  margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
  }
  
  p, h1, h2, h3, h4, h5, h6 {
@@ -40,10 +40,10 @@
  }
  
  .related-blog {
-  padding: 10px;
-  margin: 20px auto;
+  padding: 93px 20px 66px;
   background: rgb(218, 246, 255);
-  background-size: 100% 100%;
+  background-size: cover;
+  gap: 30px;
  }
 
  .related-blog__container {
@@ -51,14 +51,16 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: left;
-  max-width: 1800px;
+  max-width: 1712px;
   width: 100%;
-  margin: 0px auto;
-  padding: 45px 35px 0 35px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 40px;
  }
 
  .related-blog__see {
   color: rgba(73, 187, 189, 1);
+  font-size: 20px;
  }
  
  .related-blog__title {
@@ -72,13 +74,12 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 0px auto;
-  padding: 10px 20px;
  }
  
  .related-blog__text {
- font-size: 20px;
+ font-size: 26px;
  font-weight: 500;
- line-height: 2em;
+ line-height: 39px;
  }
  
  .related-blog__image {
@@ -88,39 +89,44 @@
   width: 720px;
   height: auto;
   border-radius: 20px;
-  margin: 20px auto;
+  margin-bottom: 14px;
  }
  
  .related-blog__item {
   background: rgba(255, 255, 255, 1);
-  box-shadow: 0px 18px 32px 0px rgba(47, 50, 125, 0.1);
+  box-shadow: 0px 18px 47px 0px rgba(47, 50, 125, 0.1);
   flex: 1;
-  border-radius: 2%;
-  padding: 20px;
+  border-radius: 20px;
+  max-width: 100%;
   width: 786px;
-  border: 20px;
-  margin: 15px;
+  gap: 20px;
+  padding: 66px 33px;
+ }
+
+ .related-blog__author {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 24px;
+  margin-bottom: 24px;
+  margin-top: 24px;
  }
 
  .related-blog__img-Lina {
-  padding-top: 40px;
-  float: left;
-  margin: 0 2%;
+  border-radius: 9999px;
+  width: 70px;
+  height: 70px;
  }
 
  .related-blog__text-Lina { 
-  font-size: 16px;
-  align-items: center;
-  height: 90px;
-  display: flex;
-  padding-top: 60px;
+  font-size: 18px;  
  }
 
  .related-blog__text1 {
   color: rgba(105, 105, 132, 1);
   font-size: 16px;
-  padding-top: 50px;
-  line-height: 2em;
+  line-height: 30px;
+  margin-bottom: 30px;
  }
 
  .related-blog__read {
@@ -132,19 +138,140 @@
   flex-direction: row;
   justify-content: space-between;
   color: rgba(105, 105, 132, 1);
-  padding-top: 60px;
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 30px;
   margin: auto;
  }
 
  .related-blog__number {
   display: flex;
   align-items: center;
+  gap: 20px;
    }
 
  .related-blog__group-248 {
   padding: 40px;
   display: flex;
   margin-left: auto;
+ }
 
+ .marketing-articles {
+  padding: 80px 20px 66px;
+  background: rgba(255, 255, 255, 1);
+  background-size: cover;
+  gap: 30px;
+ }
+
+ .marketing-articles__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px auto;
+ }
+
+ .marketing-articles__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: left;
+  max-width: 1712px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 40px;
+ }
+
+ .marketing-articles__item {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 18px 47px 0px rgba(47, 50, 125, 0.1);
+  flex: 1;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 100%;
+  width: 786px;
+  gap: 14px;  
+ }
+
+ 
+ .marketing-articles__image {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  width: 335px;
+  height: auto;
+  border-radius: 20px;
+ }
+
+ .marketing-articles__see {
+  color: rgba(73, 187, 189, 1);
+  font-size: 20px;
+ }
+ 
+ .marketing-articles__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+ }
+
+ .marketing-articles__group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 22px;
+}
+
+ .marketing-articles__text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 39px;
+  }
+  
+ .marketing-articles__text1 {
+  color: rgba(105, 105, 132, 1);
+  font-size: 18px;
+  line-height: 27px;
+ }
+
+  
+ .marketing-articles__author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+ }
+
+ .marketing-articles__author-left {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+ }
+
+ .marketing-articles__author-right {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+ }
+
+ .marketing-articles__img-Lina {
+  border-radius: 9999px;
+  width: 44px;
+  height: 44px;
+ }
+
+ .marketing-articles__text-Lina { 
+  font-size: 18px;  
+ }
+
+ .marketing-articles__read {
+  color: rgba(105, 105, 132, 1);
+  text-decoration: line-through;
+ }
+
+ .marketing-articles__number {
+  color: rgba(73, 187, 189, 1);
+  font-size: 24px;
+  font-weight: 700;
  }
