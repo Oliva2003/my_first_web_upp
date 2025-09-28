@@ -116,7 +116,6 @@
   border-radius: 9999px;
   width: 70px;
   height: 70px;
-  gap: 20px;
  }
 
  .related-blog__text-Lina { 
@@ -183,7 +182,8 @@
  }
 
  .marketing-articles__item {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   background: rgba(255, 255, 255, 1);
   box-shadow: 0px 18px 47px 0px rgba(47, 50, 125, 0.1);
   flex: 1;
@@ -259,7 +259,6 @@
   border-radius: 9999px;
   width: 44px;
   height: 44px;
-  gap: 20px;
  }
 
  .marketing-articles__text-Lina { 
@@ -274,7 +273,5 @@
  .marketing-articles__number {
   color: rgba(73, 187, 189, 1);
   font-size: 24px;
-  color: rgba(73, 187, 189, 1);
   font-weight: 700;
-  line-height: 100%;
  }
